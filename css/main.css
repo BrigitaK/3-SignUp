@@ -20,3 +20,20 @@ body {
         float: left;
         background-color: #fff;
     }
+        .form span,
+        .form a {
+            display: inline;
+            float: left;
+            padding: 10px;
+            line-height: 20px;
+            font-size: 15px;
+    }
+        .form span{
+            margin-left: 10px;
+        }
+        .form a {
+            font-family: ;
+            font-weight: bold;
+            color: #006ad7;
+            text-decoration: none;
+        }
