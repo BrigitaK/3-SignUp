@@ -19,7 +19,40 @@ body {
         padding: 80px;
         float: left;
         background-color: #fff;
+        position: relative;
+
     }
+        .right > .close{
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 80px;
+            height: 80px;
+        }
+            .close > .line{
+                display: inline-block;
+                width: 30px;
+                height: 2px;
+                background-color: #e5e5e5;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+    
+            }
+            .close > .line:first-of-type{
+                transform: rotate(45deg);
+                top: 29px;
+                left: 31px;
+                transform-origin: top left;
+            }
+            .close > .line:last-of-type{
+                transform: rotate(-45deg);
+                top: 50px;
+                left: 30px;
+                transform-origin: bottom left;
+
+            }
         .form span,
         .form a {
             display: inline;
