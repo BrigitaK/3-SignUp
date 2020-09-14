@@ -14,10 +14,13 @@ body {
         float: left;
         width: 40%;
         background-color: blue;
+<<<<<<< Updated upstream
         background-image: url(./kalnas.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+=======
+>>>>>>> Stashed changes
         position: absolute;
         top: 20px;
         bottom: 20px;
