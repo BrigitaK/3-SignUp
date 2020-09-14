@@ -15,7 +15,7 @@ body {
         float: left;
         width: 40%;
         background-color: blue;
-        background-image: url(./kalnas.png);
+        background-image: url(./img/kalnas.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -28,11 +28,15 @@ body {
             color: #fff;
             font-weight: normal;
             padding: 20px;
+            position: absolute;
+            padding-left: 40px;
+            text-transform: capitalize;
+            padding-top: 100px;
 
         }
         .footer{
             position: absolute;
-            left: 20px;
+            left: 40px;
             bottom: 20px;
             right: 20px;
             color: #fff;
@@ -43,7 +47,7 @@ body {
 
             }
             .footer > span{
-
+                color: #fff;
             }
 
 
