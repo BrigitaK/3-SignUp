@@ -4,7 +4,7 @@ body {
     background-color: aqua;
 }
 .background{
-    background-image: url(../kalnas.png);
+    background-image: url(../img/kalnas.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
